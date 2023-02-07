@@ -1,4 +1,4 @@
-//How to use props and how to use props in class component
+//How to use props & how to use props in Function component
 function Property(props){
     console.log(props);
     return(<div>
@@ -10,6 +10,7 @@ function Property(props){
          </h1>
          <h1>
          place:{props.place} 
+
          </h1>;
          </div>
     )
