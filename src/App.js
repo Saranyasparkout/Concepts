@@ -1,17 +1,24 @@
-//How to import a Src new files or components in React 
+// How to import a Src new files or components in React 
 import React from 'react'
-import Property from './Components/Property';
-import MyComponent from './Components/MyComponent';
+import Firstcomfun from './Funccomponents/Firstcomfun';
+import ArrowFunction from './Funccomponents/ArrowFunction';
+import Profile from './Funccomponents/Profile';
+import FunctionEvent from './Funccomponents/FunctionEvent';
+import ClassEvent from './Funccomponents/ClassEvent';
 import Counter from './Components/Counter';
-function App() {
-  return (
+import FunctionalCounter from './Funccomponents/FunctionalCounter';
+function App(){
+  return(
     <div className="App">
-      <Property name="Saranya Sarah" age="20" place="cbe" />
-      <MyComponent/>
-      <Counter/>
-     </div>
-    
-  );
+    <Firstcomfun/>
+    <ArrowFunction/>
+    <Profile firstname = "Saranya" lastname ="sarah"/>
+    <FunctionEvent/><br/>
+    <ClassEvent/>
+    <Counter/>
+    <FunctionalCounter/> 
+    </div>
+  )
 }
 
 export default App;
