@@ -7,6 +7,10 @@ import FunctionEvent from './Funccomponents/FunctionEvent';
 import ClassEvent from './Funccomponents/ClassEvent';
 import Counter from './Components/Counter';
 import FunctionalCounter from './Funccomponents/FunctionalCounter';
+import ConditionalComponent from './Funccomponents/ConditionalComponent';
+import TernaryCondition from './Funccomponents/TernaryCoundition';
+import Course from './Funccomponents/Course';
+import Developer from './Funccomponents/Developer';
 function App(){
   return(
     <div className="App">
@@ -17,6 +21,10 @@ function App(){
     <ClassEvent/>
     <Counter/>
     <FunctionalCounter/> 
+    <ConditionalComponent/>
+    <TernaryCondition/>
+    <Course/>
+    <Developer/>
     </div>
   )
 }
