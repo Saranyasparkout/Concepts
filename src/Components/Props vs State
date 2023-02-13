@@ -1,0 +1,20 @@
+Difference between props & State:
+
+//....PROPS(object)
+
+1.passed to component
+2.Props are Immeutable(Object)...Does not re-assign the value
+3.Props can be Accessed as //props(In function components we use props),//This.props
+(In class components we use this.props)
+4.They are like Parameters passed to a Function.
+
+//....STATE(object)
+
+1.Contained inside the components
+2.In State values can be Change
+3.In Functinal component we use.....hooks concept
+  //Use State
+  //Use effect
+  In class component we use .......
+  //this.state
+4.They are like variables declared in the Function body.

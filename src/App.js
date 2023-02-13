@@ -11,9 +11,18 @@ import ConditionalComponent from './Funccomponents/ConditionalComponent';
 import TernaryCondition from './Funccomponents/TernaryCoundition';
 import Course from './Funccomponents/Course';
 import Developer from './Funccomponents/Developer';
+import UseCount from './Funccomponents/UseCount';
+import Forms from './Funccomponents/Newone/Forms';
+import MyForm from './Funccomponents/MyForm';
+import Accordion from './Funccomponents/Accordion';
+import Acc from './Funccomponents/Acc';
+// import Card from './Funccomponents/Card';
 function App(){
   return(
     <div className="App">
+    <div className="SplitPane"></div>
+    <div className="Chat" />
+     <div className="Contacts" />
     <Firstcomfun/>
     <ArrowFunction/>
     <Profile firstname = "Saranya" lastname ="sarah"/>
@@ -25,6 +34,15 @@ function App(){
     <TernaryCondition/>
     <Course/>
     <Developer/>
+    <UseCount/><br/>
+    <Forms/><br/>
+    {/* <Card><p>Hello paragraph</p></Card>
+    <SplitPane/>
+    <Contacts/>
+    <Chat/> */}
+    <MyForm/>
+    <Acc/>
+    <Accordion/>
     </div>
   )
 }
