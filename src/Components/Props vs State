@@ -4,7 +4,7 @@ Difference between props & State:
 
 1.passed to component
 2.Props are Immeutable(Object)...Does not re-assign the value
-3.Props can be Accessed as //props(In function components we use props),//This.props
+3.Props can be Accessed as //props(In function components we use props),//This.props                 
 (In class components we use this.props)
 4.They are like Parameters passed to a Function.
 

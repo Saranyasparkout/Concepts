@@ -1,4 +1,4 @@
-// Using Handling Event & Event Binding in Class component
+// Using Handling Event & Handling Event in Class component
 import { Component } from "react";
 class ClassEvent extends Component{
     handeleClick(){
