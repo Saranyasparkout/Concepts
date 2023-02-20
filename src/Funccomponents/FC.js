@@ -15,6 +15,7 @@ import MyForm from './MyForm';
 import Accordion from './Accordion';
 import Acc from './Acc';
 import Tick from './Tick';
+import Counter from '../Components/Counter';
 
 const FC = () => {
   return (
@@ -25,6 +26,7 @@ const FC = () => {
     <FunctionEvent/><br/>
     <ClassEvent/>
     <FunctionalCounter/> 
+    <Counter/>
     <ConditionalComponent/>
     <TernaryCondition/>
     <Course/>

@@ -11,7 +11,7 @@ const Accordion=()=>{
     <Panel title='Sid Sriram'>
       hi! I am a Singer
       </Panel>
-  
+
   
   </>
   )
