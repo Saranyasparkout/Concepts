@@ -68,3 +68,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- Task 3: -->
+# Hooks Definition
+New addition in React 16.8. 
+
+## Hooks concepts
+1)useState
+2)useEffect
+3)useContext
+4)useRef
+5)useMemos
+6)usecallBack
+
+
+## state Hook....
+Declare a new state variable,
+which will be Call "Count"
+## Const [Count,Setcount]=Usestate(0);
+
+## Declaring a Multistate var....
+Const[age,Setage]=useState(42);
+Const[fruit,Setfruit]=Usestate('Green grapes')
+Const[todos,SetTodos]=Usestate([{text:'Learn Hook'}]);
+
+## Using the State Hook....
+Const Example =(Props)=>{
+//You can use Hooks Here!
+return<div/>;
+}
+
+(or)
+<>
+function Example(Props){
+//You Can Use Hooks Here!
+return<div/>
+}
+## Use Reducer
+The useReducer Hook is similar to the useState Hook.
+
+It allows for custom state logic.
+
+If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.
+
+## Syntax
+The useReducer Hook accepts two arguments.
+
+useReducer(<reducer>, <initialState>)
+
+The reducer function contains your custom state logic and the initialStatecan be a simple value but generally will contain an object.
+
+The useReducer Hook returns the current stateand a dispatchmethod.
+
